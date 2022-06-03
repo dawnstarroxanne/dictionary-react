@@ -9,7 +9,16 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>coded by Dawn Roxanne</footer>
+        <footer>
+          coded by{" "}
+          <a
+            href="https://github.com/dawnstarroxanne/dictionary-react"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Dawn Roxanne
+          </a>
+        </footer>
       </div>
     </div>
   );
