@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  background-color: rgb(191, 95, 95, 0.5);
+}
+.App-header {
+  font-size: 100px;
+  font-family: fantasy;
+}
+footer {
+  padding-top: 20px;
+  font-size: 14px;
+}
