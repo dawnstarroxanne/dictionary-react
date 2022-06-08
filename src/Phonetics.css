@@ -1,6 +1,31 @@
 .Phonetics a {
+  list-style: none;
   text-decoration: none;
   padding: 10px 20px;
+  display: inline-block;
+  position: relative;
+  color: #fff;
+}
+
+.Phonetics a::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  border-radius: 4px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+
+.Phonetics a:hover::after {
+  transform: scaleX(1);
+}
+.Phonetics a:hover {
+  color: #000;
 }
 
 .Phonetics .text {
